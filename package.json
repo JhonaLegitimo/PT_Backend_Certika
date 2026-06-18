@@ -2,7 +2,7 @@
   "name": "pt_backend",
   "version": "1.0.0",
   "description": "Prueba tecnica de backend para el proceso de selección de la empresa certika",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "dev": "node --watch src/server.js",
     "start": "node src/server.js"
@@ -12,6 +12,7 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1"
   }
 }
